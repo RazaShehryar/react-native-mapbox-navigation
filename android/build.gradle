@@ -54,8 +54,18 @@ android {
     disable "GradleCompatible"
   }
 
-   buildFeatures {
-      viewBinding true
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_17
+    targetCompatibility JavaVersion.VERSION_17
+  }
+
+  // Add the block below if you're using Kotlin
+  kotlinOptions {
+    jvmTarget = "17"
+  }
+
+  buildFeatures {
+    viewBinding true
   }
 
 }
