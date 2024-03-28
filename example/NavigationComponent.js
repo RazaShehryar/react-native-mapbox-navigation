@@ -1,7 +1,7 @@
 /* eslint-disable comma-dangle */
 import React from 'react';
 import {StyleSheet, View} from 'react-native';
-import MapboxNavigation from '@homee/react-native-mapbox-navigation';
+import MapboxNavigation from '@jadamsbit/react-native-mapbox-navigation';
 
 const Navigation = props => {
   const {origin, destination} = props;
@@ -14,7 +14,6 @@ const Navigation = props => {
           shouldSimulateRoute={true}
           origin={origin}
           destination={destination}
-          showsEndOfRouteFeedback={false}
           hideStatusView
           onLocationChange={event => {
             console.log('onLocationChange', event.nativeEvent);

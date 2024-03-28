@@ -1,20 +1,12 @@
 {
-  "name": "@homee/react-native-mapbox-navigation",
+  "name": "@jadamsbit/react-native-mapbox-navigation",
   "title": "React Native Mapbox Navigation",
-  "version": "2.0.1",
+  "version": "1.0.11",
   "description": "Smart Mapbox turn-by-turn routing based on real-time traffic for React Native.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "source": "src/index",
-  "scripts": {
-    "prepublishOnly": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/homeeondemand/react-native-mapbox-navigation.git",
-    "baseUrl": "https://github.com/homeeondemand/react-native-mapbox-navigation.git"
-  },
+  "author": "Jamie Adams<adams.jamie@bitsourceky.com>",
+  "repository": "git@github.com:jadamsbit/react-native-mapbox-navigation.git",
   "keywords": [
     "react-native",
     "mapbox",
@@ -24,16 +16,20 @@
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/homeeondemand/react-native-mapbox-navigation/issues"
+    "url": "https://github.com/jadamsbit/react-native-mapbox-navigation/issues"
   },
-  "homepage": "https://github.com/homeeondemand/react-native-mapbox-navigation#readme",
+  "homepage": "https://github.com/jadamsbit/react-native-mapbox-navigation#readme",
   "peerDependencies": {
     "react": "*",
     "react-native": "*"
   },
   "devDependencies": {
-    "react": "17.0.2",
-    "react-native": "0.66.4",
-    "typescript": "4.3.5"
+    "react": "18.2.0",
+    "react-native": "0.73.5",
+    "typescript": "5.0.4"
+  },
+  "publishConfig": {
+    "access": "public",
+    "name": "https://registry.yarnpkg.com/@jadamsbit/react-native-mapbox-navigation"
   }
 }
